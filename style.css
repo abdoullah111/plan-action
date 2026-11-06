@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 103, 160);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 320px;
+    height: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.50);
+    background-color: #ffffff;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
